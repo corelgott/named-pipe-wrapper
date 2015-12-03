@@ -34,8 +34,8 @@
             this.buttonSend = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.richTextBoxMessages = new System.Windows.Forms.RichTextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.listBoxClients = new System.Windows.Forms.ListBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -113,6 +113,15 @@
             this.richTextBoxMessages.TabIndex = 0;
             this.richTextBoxMessages.Text = "";
             // 
+            // listBoxClients
+            // 
+            this.listBoxClients.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBoxClients.FormattingEnabled = true;
+            this.listBoxClients.Location = new System.Drawing.Point(0, 13);
+            this.listBoxClients.Name = "listBoxClients";
+            this.listBoxClients.Size = new System.Drawing.Size(167, 317);
+            this.listBoxClients.TabIndex = 1;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -122,15 +131,6 @@
             this.label3.Size = new System.Drawing.Size(41, 13);
             this.label3.TabIndex = 0;
             this.label3.Text = "Clients:";
-            // 
-            // listBoxClients
-            // 
-            this.listBoxClients.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBoxClients.FormattingEnabled = true;
-            this.listBoxClients.Location = new System.Drawing.Point(0, 13);
-            this.listBoxClients.Name = "listBoxClients";
-            this.listBoxClients.Size = new System.Drawing.Size(167, 317);
-            this.listBoxClients.TabIndex = 1;
             // 
             // FormServer
             // 
